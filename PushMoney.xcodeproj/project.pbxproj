@@ -24,6 +24,8 @@
 		FAB148E71667D41E00F62E50 /* SendMoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148E21667D41E00F62E50 /* SendMoneyViewController.m */; };
 		FAB148E81667D41E00F62E50 /* SendMoneyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB148E31667D41E00F62E50 /* SendMoneyViewController.xib */; };
 		FAB148E91667D41E00F62E50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148E51667D41E00F62E50 /* ViewController.m */; };
+		FAB148ED1667D47300F62E50 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB148EC1667D47300F62E50 /* ViewController.xib */; };
+		FAB148EF1667D48500F62E50 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB148EE1667D48500F62E50 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		FAB148E31667D41E00F62E50 /* SendMoneyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendMoneyViewController.xib; sourceTree = "<group>"; };
 		FAB148E41667D41E00F62E50 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FAB148E51667D41E00F62E50 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAB148EC1667D47300F62E50 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		FAB148EE1667D48500F62E50 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB148EF1667D48500F62E50 /* GameKit.framework in Frameworks */,
 				FAB148AD1667D0D400F62E50 /* UIKit.framework in Frameworks */,
 				FAB148AF1667D0D400F62E50 /* Foundation.framework in Frameworks */,
 				FAB148B11667D0D400F62E50 /* CoreGraphics.framework in Frameworks */,
@@ -92,6 +97,7 @@
 		FAB148AB1667D0D400F62E50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAB148EE1667D48500F62E50 /* GameKit.framework */,
 				FAB148AC1667D0D400F62E50 /* UIKit.framework */,
 				FAB148AE1667D0D400F62E50 /* Foundation.framework */,
 				FAB148B01667D0D400F62E50 /* CoreGraphics.framework */,
@@ -104,22 +110,14 @@
 			children = (
 				FAB148CF1667D40000F62E50 /* AppDelegate.h */,
 				FAB148D01667D40000F62E50 /* AppDelegate.m */,
-				FAB148D11667D40000F62E50 /* CatchMoneyConversation.h */,
-				FAB148D21667D40000F62E50 /* CatchMoneyConversation.m */,
-				FAB148D31667D40000F62E50 /* Conversation.h */,
-				FAB148D41667D40000F62E50 /* Conversation.m */,
-				FAB148D51667D40000F62E50 /* ConversationDelegate.h */,
-				FAB148D91667D41200F62E50 /* NetworkManager.h */,
-				FAB148DA1667D41200F62E50 /* NetworkManager.m */,
-				FAB148DB1667D41200F62E50 /* PMPeer.h */,
-				FAB148DC1667D41200F62E50 /* PMPeer.m */,
-				FAB148DF1667D41E00F62E50 /* PushMoneyConversation.h */,
-				FAB148E01667D41E00F62E50 /* PushMoneyConversation.m */,
+				FAB148EA1667D43C00F62E50 /* Conversation */,
+				FAB148EB1667D44700F62E50 /* Networking */,
 				FAB148E11667D41E00F62E50 /* SendMoneyViewController.h */,
 				FAB148E21667D41E00F62E50 /* SendMoneyViewController.m */,
 				FAB148E31667D41E00F62E50 /* SendMoneyViewController.xib */,
 				FAB148E41667D41E00F62E50 /* ViewController.h */,
 				FAB148E51667D41E00F62E50 /* ViewController.m */,
+				FAB148EC1667D47300F62E50 /* ViewController.xib */,
 				FAB148B31667D0D400F62E50 /* Supporting Files */,
 			);
 			path = PushMoney;
@@ -137,6 +135,31 @@
 				FAB148C21667D0D500F62E50 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB148EA1667D43C00F62E50 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				FAB148D11667D40000F62E50 /* CatchMoneyConversation.h */,
+				FAB148D21667D40000F62E50 /* CatchMoneyConversation.m */,
+				FAB148D31667D40000F62E50 /* Conversation.h */,
+				FAB148D41667D40000F62E50 /* Conversation.m */,
+				FAB148D51667D40000F62E50 /* ConversationDelegate.h */,
+				FAB148DF1667D41E00F62E50 /* PushMoneyConversation.h */,
+				FAB148E01667D41E00F62E50 /* PushMoneyConversation.m */,
+			);
+			name = Conversation;
+			sourceTree = "<group>";
+		};
+		FAB148EB1667D44700F62E50 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FAB148D91667D41200F62E50 /* NetworkManager.h */,
+				FAB148DA1667D41200F62E50 /* NetworkManager.m */,
+				FAB148DB1667D41200F62E50 /* PMPeer.h */,
+				FAB148DC1667D41200F62E50 /* PMPeer.m */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +218,7 @@
 				FAB148C11667D0D500F62E50 /* Default@2x.png in Resources */,
 				FAB148C31667D0D500F62E50 /* Default-568h@2x.png in Resources */,
 				FAB148E81667D41E00F62E50 /* SendMoneyViewController.xib in Resources */,
+				FAB148ED1667D47300F62E50 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

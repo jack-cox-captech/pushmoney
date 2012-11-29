@@ -12,12 +12,18 @@
 		FAB148B11667D0D400F62E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB148B01667D0D400F62E50 /* CoreGraphics.framework */; };
 		FAB148B71667D0D400F62E50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB148B51667D0D400F62E50 /* InfoPlist.strings */; };
 		FAB148B91667D0D400F62E50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148B81667D0D400F62E50 /* main.m */; };
-		FAB148BD1667D0D400F62E50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148BC1667D0D400F62E50 /* AppDelegate.m */; };
 		FAB148BF1667D0D500F62E50 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB148BE1667D0D500F62E50 /* Default.png */; };
 		FAB148C11667D0D500F62E50 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB148C01667D0D500F62E50 /* Default@2x.png */; };
 		FAB148C31667D0D500F62E50 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB148C21667D0D500F62E50 /* Default-568h@2x.png */; };
-		FAB148C61667D0D500F62E50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148C51667D0D500F62E50 /* ViewController.m */; };
-		FAB148C91667D0D500F62E50 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB148C71667D0D500F62E50 /* ViewController.xib */; };
+		FAB148D61667D40000F62E50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148D01667D40000F62E50 /* AppDelegate.m */; };
+		FAB148D71667D40000F62E50 /* CatchMoneyConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148D21667D40000F62E50 /* CatchMoneyConversation.m */; };
+		FAB148D81667D40000F62E50 /* Conversation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148D41667D40000F62E50 /* Conversation.m */; };
+		FAB148DD1667D41200F62E50 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148DA1667D41200F62E50 /* NetworkManager.m */; };
+		FAB148DE1667D41200F62E50 /* PMPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148DC1667D41200F62E50 /* PMPeer.m */; };
+		FAB148E61667D41E00F62E50 /* PushMoneyConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148E01667D41E00F62E50 /* PushMoneyConversation.m */; };
+		FAB148E71667D41E00F62E50 /* SendMoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148E21667D41E00F62E50 /* SendMoneyViewController.m */; };
+		FAB148E81667D41E00F62E50 /* SendMoneyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB148E31667D41E00F62E50 /* SendMoneyViewController.xib */; };
+		FAB148E91667D41E00F62E50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB148E51667D41E00F62E50 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +35,27 @@
 		FAB148B61667D0D400F62E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAB148B81667D0D400F62E50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAB148BA1667D0D400F62E50 /* PushMoney-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushMoney-Prefix.pch"; sourceTree = "<group>"; };
-		FAB148BB1667D0D400F62E50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FAB148BC1667D0D400F62E50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FAB148BE1667D0D500F62E50 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FAB148C01667D0D500F62E50 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FAB148C21667D0D500F62E50 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		FAB148C41667D0D500F62E50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAB148C51667D0D500F62E50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FAB148C81667D0D500F62E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FAB148CF1667D40000F62E50 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAB148D01667D40000F62E50 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAB148D11667D40000F62E50 /* CatchMoneyConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchMoneyConversation.h; sourceTree = "<group>"; };
+		FAB148D21667D40000F62E50 /* CatchMoneyConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchMoneyConversation.m; sourceTree = "<group>"; };
+		FAB148D31667D40000F62E50 /* Conversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversation.h; sourceTree = "<group>"; };
+		FAB148D41667D40000F62E50 /* Conversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversation.m; sourceTree = "<group>"; };
+		FAB148D51667D40000F62E50 /* ConversationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationDelegate.h; sourceTree = "<group>"; };
+		FAB148D91667D41200F62E50 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		FAB148DA1667D41200F62E50 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		FAB148DB1667D41200F62E50 /* PMPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMPeer.h; sourceTree = "<group>"; };
+		FAB148DC1667D41200F62E50 /* PMPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMPeer.m; sourceTree = "<group>"; };
+		FAB148DF1667D41E00F62E50 /* PushMoneyConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushMoneyConversation.h; sourceTree = "<group>"; };
+		FAB148E01667D41E00F62E50 /* PushMoneyConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushMoneyConversation.m; sourceTree = "<group>"; };
+		FAB148E11667D41E00F62E50 /* SendMoneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMoneyViewController.h; sourceTree = "<group>"; };
+		FAB148E21667D41E00F62E50 /* SendMoneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMoneyViewController.m; sourceTree = "<group>"; };
+		FAB148E31667D41E00F62E50 /* SendMoneyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendMoneyViewController.xib; sourceTree = "<group>"; };
+		FAB148E41667D41E00F62E50 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAB148E51667D41E00F62E50 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +102,24 @@
 		FAB148B21667D0D400F62E50 /* PushMoney */ = {
 			isa = PBXGroup;
 			children = (
-				FAB148BB1667D0D400F62E50 /* AppDelegate.h */,
-				FAB148BC1667D0D400F62E50 /* AppDelegate.m */,
-				FAB148C41667D0D500F62E50 /* ViewController.h */,
-				FAB148C51667D0D500F62E50 /* ViewController.m */,
-				FAB148C71667D0D500F62E50 /* ViewController.xib */,
+				FAB148CF1667D40000F62E50 /* AppDelegate.h */,
+				FAB148D01667D40000F62E50 /* AppDelegate.m */,
+				FAB148D11667D40000F62E50 /* CatchMoneyConversation.h */,
+				FAB148D21667D40000F62E50 /* CatchMoneyConversation.m */,
+				FAB148D31667D40000F62E50 /* Conversation.h */,
+				FAB148D41667D40000F62E50 /* Conversation.m */,
+				FAB148D51667D40000F62E50 /* ConversationDelegate.h */,
+				FAB148D91667D41200F62E50 /* NetworkManager.h */,
+				FAB148DA1667D41200F62E50 /* NetworkManager.m */,
+				FAB148DB1667D41200F62E50 /* PMPeer.h */,
+				FAB148DC1667D41200F62E50 /* PMPeer.m */,
+				FAB148DF1667D41E00F62E50 /* PushMoneyConversation.h */,
+				FAB148E01667D41E00F62E50 /* PushMoneyConversation.m */,
+				FAB148E11667D41E00F62E50 /* SendMoneyViewController.h */,
+				FAB148E21667D41E00F62E50 /* SendMoneyViewController.m */,
+				FAB148E31667D41E00F62E50 /* SendMoneyViewController.xib */,
+				FAB148E41667D41E00F62E50 /* ViewController.h */,
+				FAB148E51667D41E00F62E50 /* ViewController.m */,
 				FAB148B31667D0D400F62E50 /* Supporting Files */,
 			);
 			path = PushMoney;
@@ -162,7 +194,7 @@
 				FAB148BF1667D0D500F62E50 /* Default.png in Resources */,
 				FAB148C11667D0D500F62E50 /* Default@2x.png in Resources */,
 				FAB148C31667D0D500F62E50 /* Default-568h@2x.png in Resources */,
-				FAB148C91667D0D500F62E50 /* ViewController.xib in Resources */,
+				FAB148E81667D41E00F62E50 /* SendMoneyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +206,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB148B91667D0D400F62E50 /* main.m in Sources */,
-				FAB148BD1667D0D400F62E50 /* AppDelegate.m in Sources */,
-				FAB148C61667D0D500F62E50 /* ViewController.m in Sources */,
+				FAB148D61667D40000F62E50 /* AppDelegate.m in Sources */,
+				FAB148D71667D40000F62E50 /* CatchMoneyConversation.m in Sources */,
+				FAB148D81667D40000F62E50 /* Conversation.m in Sources */,
+				FAB148DD1667D41200F62E50 /* NetworkManager.m in Sources */,
+				FAB148DE1667D41200F62E50 /* PMPeer.m in Sources */,
+				FAB148E61667D41E00F62E50 /* PushMoneyConversation.m in Sources */,
+				FAB148E71667D41E00F62E50 /* SendMoneyViewController.m in Sources */,
+				FAB148E91667D41E00F62E50 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +226,6 @@
 				FAB148B61667D0D400F62E50 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FAB148C71667D0D500F62E50 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAB148C81667D0D500F62E50 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
